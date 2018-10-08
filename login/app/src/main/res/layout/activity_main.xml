@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.dellpc.login.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.shaishavgandhi.loginbuttons.FacebookButton
+            android:id="@+id/bt_act_login_fb"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Sign in with Facebook"
+            android:layout_marginBottom="50dp"
+            app:iconSize="30dp" />
+
+        <com.shaishavgandhi.loginbuttons.LinkedInButton
+            android:id="@+id/linkedin_login_button"
+            android:layout_width="230dp"
+            android:layout_marginBottom="50dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Sign in with LinkedIn"
+            app:iconSize="30dp" />
+
+        <!--never change id of this button-->
+        <com.shaishavgandhi.loginbuttons.TwitterButton
+            android:id="@+id/twitter_login_button"
+            android:layout_width="230dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:layout_height="wrap_content"
+            android:text="Sign in with Twitter"
+            app:iconSize="30dp" />
+
+        <com.shaishavgandhi.loginbuttons.GoogleButton
+            android:id="@+id/g_plus_login_btn"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:text="Sign in with Google"
+            android:textAlignment="center"
+            android:layout_marginBottom="50dp"
+            android:layout_gravity="center"
+            android:textColor="@color/com_facebook_button_background_color_pressed"
+            app:iconSize="30dp" />
+    </LinearLayout>
+</RelativeLayout>
+
+

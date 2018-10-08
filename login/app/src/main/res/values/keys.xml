@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook_app_id">""</string>
+    <string name="twitter_api_key">""</string>
+    <string name="twitter_secrate_key">""</string>
+</resources>

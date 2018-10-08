@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1074983076219",
+    "firebase_url": "https://login-social001-200915.firebaseio.com",
+    "project_id": "login-social001-200915",
+    "storage_bucket": "login-social001-200915.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074983076219:android:d8fa08847ec60426",
+        "android_client_info": {
+          "package_name": "com.example.dellpc.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074983076219-7323djg1vlc9a9bod1soc8t4a8ogorme.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1074983076219-bsfjq5qrkibnqmk6ursjqn06j1je1qgd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dellpc.login",
+            "certificate_hash": "2fbb08eacafcd701eca744e913f5a58aea7b8a3c"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO_HshG6DZYPc4E4Q-_TJuudKz8rA1Gs8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074983076219-7323djg1vlc9a9bod1soc8t4a8ogorme.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
